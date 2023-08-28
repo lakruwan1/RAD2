@@ -1,0 +1,30 @@
+2023.08.28 12:31:26 INFO  Started: Metals version 1.0.0 in folders '/Users/lakruwankasun/Desktop/RAD/Project' for client Visual Studio Code 1.80.2.
+Aug 28, 2023 12:31:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 28, 2023 12:31:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 28, 2023 12:31:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/lakruwankasun/Desktop/RAD/Project/.metals/metals (H2 2.1)
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.018s)
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 28, 2023 12:31:27 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.037s)
+2023.08.28 12:31:27 INFO  time: initialize in 0.76s
+2023.08.28 12:31:32 WARN  Build server is not auto-connectable.
+2023.08.28 12:31:32 WARN  no build tool detected in workspace '/Users/lakruwankasun/Desktop/RAD/Project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
